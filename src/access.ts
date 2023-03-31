@@ -49,7 +49,7 @@ export class CloudflreAccess {
         // Start transfer
         this.events.emit('login', login.url);
         const token = await this.transferStart(login.publicKey, login.privateKey);
-        this.events.emit('complete', token);
+        this.events.emit('complete', token.app_token);
 
         // Store token
         storeToken(kid.appURL, kid.kid, token.app_token);

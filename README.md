@@ -2,8 +2,7 @@
 A simple login cloudflare access and store token into `.cloudflared`
 
 ## ⚠️ Note
-I'm not cloudflared developer. I use code reference from repo [Cloudflared](https://github.com/cloudflare/cloudflared).
-
+I'm not cloudflared developer. I use code reference from repo [Cloudflared](https://github.com/cloudflare/cloudflared). The reason why I made this. Because I use from porject [FishTerm](https://github.com/mrwan200/fishterm).
 # Install
 ```
 npm install https://github.com/mrwan200/cloudflare-access-login

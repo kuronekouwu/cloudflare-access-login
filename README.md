@@ -33,3 +33,6 @@ cf.events.on("complete", (token) => {
 })
 cf.login('<ACCESS_URL>').then(() => {})
 ```
+
+## Enjoy!
+![IMG](https://media.tenor.com/tOQwllZ8ixwAAAAd/nahida-genshin-impact.gif)
